@@ -1,0 +1,202 @@
+[
+  {
+    "id": "report-001",
+    "category": "Report Writing",
+    "title": "Professional Report Template",
+    "prompt": "As a senior penetration tester, create a comprehensive bug bounty report template including: 1) Executive summary 2) Scope definition 3) Methodology 4) Findings with severity 5) Proof of concept 6) Impact analysis 7) Remediation recommendations 8) References. Format as professional markdown.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-002",
+    "category": "Report Writing",
+    "title": "Impact Maximization",
+    "prompt": "You are a technical writer specializing in security reports. Generate techniques for maximizing the impact of vulnerability reports: 1) Business impact articulation 2) Technical severity translation 3) Likelihood assessment 4) Attack scenario development 5) Compelling PoC creation 6) Report structure optimization. Include examples.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-003",
+    "category": "Report Writing",
+    "title": "PoC Development",
+    "prompt": "Act as a security consultant. Provide PoC development guidance: 1) Minimal PoC creation 2) Video PoC guidelines 3) Code snippets for PoC 4) Screenshot requirements 5) Step-by-step reproduction 6) Tool output documentation. Include templates.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-004",
+    "category": "Report Writing",
+    "title": "CVSS Scoring",
+    "prompt": "As a CVSS specialist, provide accurate CVSS scoring methodology: 1) Base metric selection 2) Temporal considerations 3) Environmental customization 4) Score justification 5) Common scoring mistakes 6) Score appeals. Include real examples with scoring.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-005",
+    "category": "Report Writing",
+    "title": "Executive Summary",
+    "prompt": "You are a security communications expert. Create executive summary writing: 1) Non-technical language 2) Business impact focus 3) Key findings highlight 4) Risk prioritization 5) Recommended actions 6) ROI of fixing. Include template and examples.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-006",
+    "category": "Report Writing",
+    "title": "Remediation Guidance",
+    "prompt": "Act as a security architect. Provide remediation guidance: 1) Technical fixes 2) Configuration changes 3) Code modifications 4) Architecture changes 5) Compensating controls 6) Validation testing. Include specific recommendations for common vulnerabilities.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-007",
+    "category": "Report Writing",
+    "title": "Evidence Documentation",
+    "prompt": "As a forensic documentation specialist, create evidence documentation: 1) Screenshot requirements 2) Video recording guidelines 3) Log extraction 4) Tool output preservation 5) Timestamp documentation 6) Chain of custody. Include specific requirements.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-008",
+    "category": "Report Writing",
+    "title": "Technical Writing",
+    "prompt": "You are a technical security writer. Provide technical writing optimization: 1) Clear vulnerability description 2) Technical accuracy 3) Reproducibility 4) Proper terminology 5) Structured findings 6) Format consistency. Include style guide.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-009",
+    "category": "Report Writing",
+    "title": "Report Review",
+    "prompt": "Act as a quality assurance specialist. Generate report review checklist: 1) Technical accuracy 2) Completeness 3) Clarity 4) Grammar/spelling 5) Formatting 6) Consistency. Include review criteria.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-010",
+    "category": "Report Writing",
+    "title": "Severity Justification",
+    "prompt": "As a risk assessment specialist, provide severity justification: 1) Technical impact analysis 2) Business risk assessment 3) Exploitability factors 4) Likelihood calculation 5) CVSS vs real risk 6) Stakeholder communication. Include methodology.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-011",
+    "category": "Report Writing",
+    "title": "Finding Categorization",
+    "prompt": "You are a security analyst. Create finding categorization: 1) Severity assignment 2) Category organization 3) Similar finding grouping 4) Root cause identification 5) Trend analysis 6) Remediation priority. Include framework.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-012",
+    "category": "Report Writing",
+    "title": "Compliance Mapping",
+    "prompt": "Act as a compliance specialist. Generate compliance mapping: 1) OWASP Top 10 alignment 2) CVE mapping 3) CWE classification 4) NIST framework 5) PCI DSS requirements 6) Industry standards. Include templates.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-013",
+    "category": "Report Writing",
+    "title": "Visual Documentation",
+    "prompt": "As a security documentation expert, create visual documentation: 1) Architecture diagrams 2) Attack flow diagrams 3) Timeline visualization 4) Screenshot annotations 5) Flowchart creation 6) Tool output graphs. Include guidelines.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-014",
+    "category": "Report Writing",
+    "title": "Client Communication",
+    "prompt": "You are a client relations specialist. Provide client communication: 1) Finding presentation 2) Technical explanation 3) Remediation roadmap 4) Timeline negotiation 5) Risk acceptance 6) Escalation procedures. Include templates.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-015",
+    "category": "Report Writing",
+    "title": "Report Templates",
+    "prompt": "Act as a reporting specialist. Generate multiple report formats: 1) Bug bounty report 2) Pentest executive report 3) Vulnerability assessment 4) Red team findings 5) Compliance report 6) Technical detail report. Include templates for each.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-016",
+    "category": "Report Writing",
+    "title": "Finding Duplication",
+    "prompt": "As a data analyst, provide duplicate finding handling: 1) Similar finding identification 2) Root cause analysis 3) Deduplication methods 4) Combined reporting 5) Impact aggregation 6) Resolution tracking. Include methodology.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-017",
+    "category": "Report Writing",
+    "title": "Remediation Tracking",
+    "prompt": "You are a remediation specialist. Create tracking methodology: 1) Finding to fix mapping 2) Status tracking 3) Timeline management 4) Verification process 5) Regression testing 6) Closure criteria. Include templates.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "report-018",
+    "category": "Report Writing",
+    "title": "Real Report Examples",
+    "prompt": "Act as a report writer. Provide real report examples: 1) Critical SQL injection report 2) IDOR finding report 3) RCE vulnerability report 4) Authentication bypass report 5) Sensitive data exposure 6) Business logic flaw. Include full reports.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-019",
+    "category": "Report Writing",
+    "title": "Before/After Reports",
+    "prompt": "As a security consultant, generate before/after reporting: 1) Initial finding description 2) Remediation implementation 3) Retest verification 4) Residual risk assessment 5) Improvement metrics 6) Final report. Include templates.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-020",
+    "category": "Report Writing",
+    "title": "Multi-Language Reports",
+    "prompt": "You are an international security specialist. Create multi-language support: 1) Language selection 2) Technical translation 3) Cultural considerations 4) Local compliance 5) Regional standards 6) Localization tips. Include guidelines.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-021",
+    "category": "Report Writing",
+    "title": "Vulnerability Disclosure",
+    "prompt": "Act as a disclosure specialist. Provide vulnerability disclosure: 1) Responsible disclosure timeline 2) Vendor communication 3) Public disclosure guidelines 4) Embargo handling 5) Coordinated disclosure 6) Press handling. Include templates.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-022",
+    "category": "Report Writing",
+    "title": "Report Automation",
+    "prompt": "As an automation specialist, generate report automation: 1) Finding extraction 2) Template population 3) Screenshot embedding 4) PDF generation 5) Version control 6) Export options. Include tools and scripts.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "report-023",
+    "category": "Report Writing",
+    "title": "Metrics & KPIs",
+    "prompt": "You are a security metrics specialist. Create reporting metrics: 1) Findings by severity 2) Time to remediation 3) Risk reduction 4) Coverage metrics 5) False positive rates 6) Trend analysis. Include dashboards.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "report-024",
+    "category": "Report Writing",
+    "title": "Post-Incident Reports",
+    "prompt": "Act as an incident response specialist. Generate incident reports: 1) Timeline reconstruction 2) Root cause analysis 3) Attack vector identification 4) Impact assessment 5) Remediation steps 6) Prevention measures. Include templates.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "report-025",
+    "category": "Report Writing",
+    "title": "Security Scorecard",
+    "prompt": "As a security analyst, provide security scorecard creation: 1) Risk scoring methodology 2) Finding aggregation 3) Trend visualization 4) Benchmark comparison 5) Improvement tracking 6) Executive presentation. Include templates.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  }
+]

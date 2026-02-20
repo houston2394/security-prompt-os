@@ -1,0 +1,202 @@
+[
+  {
+    "id": "recon-001",
+    "category": "Reconnaissance",
+    "title": "Subdomain Enumeration Strategy",
+    "prompt": "Act as an expert bug bounty hunter with 10+ years of experience in reconnaissance. Generate a comprehensive subdomain enumeration strategy for [TARGET]. Include: 1) Passive enumeration sources (Certificate Transparency logs, DNS aggregators, search engines) 2) Active enumeration techniques (DNS bruteforce, alteration attacks, DNS zone transfers) 3) Tools to use with optimal parameters 4) Priority order for efficiency 5) Common pitfalls to avoid. Format the output as a step-by-step checklist.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-002",
+    "category": "Reconnaissance",
+    "title": "Port Scanning Analysis",
+    "prompt": "You are a penetration tester analyzing nmap scan results. Analyze the following nmap output: [PASTE NMAP RESULTS]. For each open port, identify: 1) Service version and potential vulnerabilities 2) Misconfigurations to exploit 3) Quick wins (default credentials, verbose vs anonymous access) 4) Priority attack path. Format as a vulnerability report with CVSS estimates.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-003",
+    "category": "Reconnaissance",
+    "title": "JavaScript File Extraction",
+    "prompt": "As a senior web security consultant, provide a systematic approach to extract and analyze JavaScript files from [TARGET URL]. Include: 1) Tools and techniques for JS extraction 2) Patterns to search for (API endpoints, hardcoded secrets, interesting comments) 3) How to automate analysis 4) CommonJS vs ES6 module analysis 5) Dynamic vs static analysis. Provide specific regex patterns for finding sensitive data.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-004",
+    "category": "Reconnaissance",
+    "title": "API Endpoint Discovery",
+    "prompt": "Act as an API security expert. Generate a comprehensive API recon methodology for discovering hidden API endpoints including: 1) Passive endpoints (Swagger, OpenAPI, GraphQL introspection) 2) Active fuzzing wordlists specific to APIs 3) Parameter discovery techniques 4) Version detection methods 5) Rate limiting bypass for enumeration. Include tool recommendations with specific command examples.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-005",
+    "category": "Reconnaissance",
+    "title": "GitHub Reconnaissance",
+    "prompt": "You are an OSINT specialist focusing on GitHub recon. Create a thorough methodology for finding sensitive data in GitHub repositories including: 1) Dorks for finding credentials, keys, and secrets 2) Historical commit analysis 3) GitHub code search strategies 4) Organization enumeration 5) Gist and secret scanning 6) CI/CD pipeline analysis. Provide exact search queries that work.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-006",
+    "category": "Reconnaissance",
+    "title": "DNS Enumeration Deep Dive",
+    "prompt": "As a DNS security expert, provide advanced DNS enumeration techniques for bug bounty hunting. Cover: 1) Zone transfer testing 2) DNS wildcard handling 3) Subdomain Takeover detection 4) CAA/SPF/DMARC analysis 5) DNS over HTTPS enumeration 6) Fast-flux detection. Include Python scripts for automation.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-007",
+    "category": "Reconnaissance",
+    "title": "S3 Bucket Hunting",
+    "prompt": "Act as a cloud security specialist. Generate an S3 bucket enumeration methodology including: 1) Bucket naming pattern generation 2) Tools for automated checking 3) Common misconfiguration checks 4) Bucket takeover testing 5) Automated exploitation scripts. Provide real examples of vulnerable bucket patterns.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-008",
+    "category": "Reconnaissance",
+    "title": "Shodan/Censys Queries",
+    "prompt": "You are an IoT security researcher. Create optimized search queries for Shodan and Censys to find: 1) Vulnerable services 2) Default credentials 3) Exposed dashboards 4) Database servers 5) Industrial control systems 6) CCTV cameras. Include specific dorks and filters for each category.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-009",
+    "category": "Reconnaissance",
+    "title": "WayBack Machine Recon",
+    "prompt": "As an OSINT analyst, provide a comprehensive approach to using the WayBack Machine for reconnaissance: 1) Historical URL discovery 2) Parameter mining 3) JavaScript archive analysis 4) Old endpoint identification 5) Version detection. Include tools like waybackurls, gau, and gospider.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-010",
+    "category": "Reconnaissance",
+    "title": "Technology Fingerprinting",
+    "prompt": "Act as a web application security tester. Create a methodology for identifying web technologies including: 1) Header analysis 2) HTML source inspection 3) JavaScript framework detection 4) Server identification 5) CMS detection 6) WAF identification. Include tools and specific detection methods.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-011",
+    "category": "Reconnaissance",
+    "title": "Email Reconnaissance",
+    "prompt": "As an OSINT specialist, provide email enumeration techniques for bug bounty: 1) Email format discovery 2) Breached database lookup 3) Social media enumeration 4) Company directory analysis 5) Email pattern guessing. Include tools like theHarvester, Hunter.io alternatives.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-012",
+    "category": "Reconnaissance",
+    "title": "Employee Identification",
+    "prompt": "You are a social engineering specialist. Generate a methodology for identifying key employees at [TARGET COMPANY] including: 1) LinkedIn enumeration 2) Twitter/X reconnaissance 3) Conference talk analysis 4) GitHub contributor analysis 5) Blog/technical writing identification. Include tools and automation techniques.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-013",
+    "category": "Reconnaissance",
+    "title": "WAF Identification & Bypass",
+    "prompt": "Act as a web application penetration tester. Create a comprehensive WAF identification and bypass guide: 1) WAF detection techniques 2) Common bypass methods for major WAFs 3) Payload encoding strategies 4) Protocol-level bypasses 5) Tools for automated bypass attempts. Include real bypass techniques.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-014",
+    "category": "Reconnaissance",
+    "title": "SSL/TLS Analysis",
+    "prompt": "As a network security consultant, provide SSL/TLS analysis methodology: 1) Certificate inspection 2) Weak cipher detection 3) TLS version analysis 4) Certificate transparency logs 5) Heartbleed/other TLS vulnerabilities. Include tools and specific test cases.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-015",
+    "category": "Reconnaissance",
+    "title": "Content Discovery",
+    "prompt": "Act as a web security tester. Generate a content discovery methodology: 1) Directory enumeration 2) File extension fuzzing 3) Backup file hunting 4) Log file discovery 5) Configuration file finding. Include wordlists and tool recommendations.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-016",
+    "category": "Reconnaissance",
+    "title": "Cloud Asset Discovery",
+    "prompt": "You are a cloud security specialist. Provide methodology for discovering cloud assets: 1) AWS enumeration (S3, EC2, Lambda) 2) Azure resource discovery 3) GCP asset identification 4) DigitalOcean/other cloud providers 5) Cloud metadata service exploitation. Include specific tools and techniques.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-017",
+    "category": "Reconnaissance",
+    "title": "Passive Reconnaissance Summary",
+    "prompt": "As an expert OSINT analyst, create a comprehensive passive reconnaissance workflow that: 1) Starts with minimal target information 2) Uses only passive sources (no direct interaction) 3) Builds a complete target profile 4) Identifies all external attack surfaces 5) Documents findings systematically. Include toolchain and priority ordering.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-018",
+    "category": "Reconnaissance",
+    "title": "Active Scanning Strategy",
+    "prompt": "Act as a penetration tester. Design an active scanning strategy that: 1) Minimizes detection 2) Maximizes coverage 3) Handles rate limiting 4) Manages scope carefully 5) Extracts maximum information. Include specific tool configurations.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-019",
+    "category": "Reconnaissance",
+    "title": "Network Mapping",
+    "prompt": "You are a network penetration tester. Create a methodology for comprehensive network mapping: 1) Internal vs external perspectives 2) Network topology discovery 3) Identifying critical assets 4) Segmentation analysis 5) Trust relationship mapping. Include visualization techniques.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-020",
+    "category": "Reconnaissance",
+    "title": "Mobile App Recon",
+    "prompt": "Act as a mobile security specialist. Provide mobile app reconnaissance: 1) APK/JAAT analysis 2) Traffic interception setup 3) Static analysis methodology 4) Dynamic testing approach 5) Backend API discovery. Include tools and Frida scripts.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "recon-021",
+    "category": "Reconnaissance",
+    "title": "OAuth/SSO Reconnaissance",
+    "prompt": "As an authentication security expert, provide OAuth and SSO reconnaissance: 1) OAuth flow analysis 2) SSO provider enumeration 3) Token analysis 4) Misconfiguration detection 5) Implementation weakness finding. Include specific vulnerable patterns.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-022",
+    "category": "Reconnaissance",
+    "title": "CDN Bypass Techniques",
+    "prompt": "You are a security researcher specializing in CDN bypass. Create a methodology for CDN reconnaissance: 1) CDN identification 2) Origin server discovery 3) DNS record analysis 4) SSL certificate hunting 5) Web cache deception attacks. Include specific tools and real examples.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "recon-023",
+    "category": "Reconnaissance",
+    "title": "Internet Archive Analysis",
+    "prompt": "As an OSINT specialist, provide Internet Archive analysis for security testing: 1) Historical website analysis 2) Deleted content recovery 3) Configuration leak discovery 4) Version identification 5) Backup file hunting. Include specific queries and tools.",
+    "model": "ChatGPT, Claude, Gemini",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-024",
+    "category": "Reconnaissance",
+    "title": "DNS Zone Transfer Testing",
+    "prompt": "Act as a network security consultant. Generate DNS zone transfer testing methodology: 1) Manual zone transfer attempts 2) Automated tools 3) Alternative DNS record enumeration 4) DNS reputation analysis 5) Wildcard DNS handling. Include specific commands and tools.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "recon-025",
+    "category": "Reconnaissance",
+    "title": "Vulnerability Scanner Optimization",
+    "prompt": "You are a professional penetration tester. Create optimized vulnerability scanning methodology: 1) Nmap NSE scripts selection 2) Nuclei template tuning 3) Custom exploit development 4) False positive reduction 5) Reporting automation. Include specific configurations for maximum efficiency.",
+    "model": "ChatGPT, Claude",
+    "difficulty": "Intermediate"
+  }
+]
